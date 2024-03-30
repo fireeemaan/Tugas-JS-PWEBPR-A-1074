@@ -11,7 +11,7 @@ document.getElementById('yesBtn').addEventListener('click', function() {
     mainCard.className = 'w-[610px] h-[329px] bg-[#E12E2E] rounded-[30px]';
     dialogText.textContent = 'Anda adalah seorang Teknisi';
     contentTitle.textContent = 'Anda Berbohong!';
-    contentImg.src = 'src/assets/img/teknisi.svg';
+    contentImg.src = 'assets/img/teknisi.svg';
 });
 
 document.getElementById('noBtn').addEventListener('click', function() {
@@ -21,7 +21,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
     mainCard.className = 'w-[610px] h-[329px] bg-[#6FD240] rounded-[30px]';
     dialogText.textContent = 'Anda adalah seorang Mahasiswa';
     contentTitle.textContent = 'Anda Benar!';
-    contentImg.src = 'src/assets/img/mahasiswa.svg';
+    contentImg.src = 'assets/img/mahasiswa.svg';
 });
 
 document.getElementById('refreshBtn').addEventListener('click', function() {
